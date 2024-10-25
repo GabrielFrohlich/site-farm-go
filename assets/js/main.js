@@ -11,11 +11,13 @@
       ud_header.classList.add("sticky");
     } else {
       ud_header.classList.remove("sticky");
+      logo.style.width = "160px";
     }
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
       logo.src = "assets/images/logo/logo-2.svg";
+      logo.style.width = "100px";
     } else {
       logo.src = "assets/images/logo/logo.svg";
     }
